@@ -9,8 +9,8 @@ import androidx.recyclerview.widget.RecyclerView
 import com.mohammadosman.structuredconcurrency_kotlincoroutines.R
 import com.mohammadosman.structuredconcurrency_kotlincoroutines.domain.Comment
 
+// Todo("For comments list")
 class MainAdapter : RecyclerView.Adapter<MainAdapter.MainViewHolder>() {
-
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MainViewHolder {
         return MainViewHolder(

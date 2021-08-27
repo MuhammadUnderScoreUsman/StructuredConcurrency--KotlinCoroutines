@@ -7,5 +7,6 @@ import kotlinx.parcelize.Parcelize
 data class UiState(
     val user: String? = null,
     val post: String? = null,
-    val progressBar: Boolean = false
+    val progressBar: Boolean = false,
+    val errorMsg: String? = null,
 ) : Parcelable
